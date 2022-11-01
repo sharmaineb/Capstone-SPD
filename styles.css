@@ -6,3 +6,17 @@
     object-position: center;
     margin-left: 0.5em;
 }
+
+form {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+form h4 {
+    margin-right: 0.5em;
+    font-family: helvetica;
+}
