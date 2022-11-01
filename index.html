@@ -19,7 +19,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
     <div class="navbar-nav">
         <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="about.html">About</a>
@@ -30,25 +30,50 @@
 <!--End Navigation-->
 </header>
 <!--Hero-->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Fluid jumbotron</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+<div class="jumbotron text-center hero-background-img-fluid">
+  <img src="https://img.nbc.com/sites/nbcunbc/files/images/2021/7/13/B99-S8-KeyArt-Logo-Show-Tile-1920x1080.jpg" width="1300" class="d-inline-block align-top" alt="">
+  <p></p>
+  <p class="lead"></p>
+  <a href="https://www.youtube.com/watch?v=GbtF3oA7NMM" class="btn mb-3" style="color: #000000;">The Squad</a>
+  <div class="embed-responsive embed-responsive-16by9 col-lg-6 offset-lg-3">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-6Up7CG5d6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
 <!--End Hero-->
 <!--Content-->
-
+<h2>About</h2>
+<h3>From the ones who gave us Parks & Recreation, The Office, and The Good Place</h3>
+<!--End Content-->
 <!--Forms-->
 <form>
-  <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
-    </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Example select</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 </form>
 <!--End Forms-->
