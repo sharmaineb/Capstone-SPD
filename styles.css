@@ -31,3 +31,22 @@ button {
     margin: 0.5em;
 }
 
+footer {
+    margin-top: 2.5em;
+    padding-top: 10px;
+}
+
+#carouselExampleControls {
+    height: 550px;
+    width: 95%;
+}
+
+.cold-open {
+    margin: 2.5em;
+}
+
+.cheddar {
+    margin-bottom: 2.5em;
+    padding-bottom: 50px;
+}
+
