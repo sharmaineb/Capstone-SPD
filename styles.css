@@ -24,6 +24,10 @@ form h4 {
 }
 
 button {
+    margin: 1.5em;
+}
+
+.form-group button {
     margin: 0.5em;
 }
 
