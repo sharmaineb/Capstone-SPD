@@ -43,6 +43,7 @@ footer {
 
 .cold-open {
     margin: 2.5em;
+    margin-top: 7em;
 }
 
 .cheddar {
@@ -50,3 +51,19 @@ footer {
     padding-bottom: 50px;
 }
 
+.card-deck img {
+   max-width:100%;
+   width: 100%;
+   height: auto;
+   object-fit:cover;
+        
+}
+
+.row {
+    gap: 1em;
+    margin: 1.0em;
+}
+
+iframe {
+    margin: 0.5em;
+}
