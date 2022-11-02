@@ -61,6 +61,13 @@ footer {
 
 .row {
     gap: 1em;
-    margin: 1.0em;
+    margin: 1.5em;
 }
 
+.card-group {
+    margin: 1.5em;
+}
+
+.card img {
+    margin: 0.7em;
+}
